@@ -9,4 +9,8 @@
 (require 'ert)
 (require 'example)
 
+(ert-deftest example-module-message-returns-message ()
+  (should (equal (example-module-message)
+                 "Hello from example-module.")))
+
 ;;; example-test.el ends here

@@ -36,6 +36,7 @@
 
 (require 'org)
 (require 'org-roam)
+(require 'example-module)
 
 (provide 'example)
 

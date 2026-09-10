@@ -21,6 +21,7 @@
         root = ./.;
         fileset = pkgs.lib.fileset.unions [
           ./example.el
+          ./example-module.el
           ./README.org
           ./LICENSE
         ];
